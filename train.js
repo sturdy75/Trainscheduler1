@@ -1,5 +1,3 @@
-
-// 1. Initialize Firebase
 var config = {
   apiKey: "AIzaSyD1lXF63bW8d20u4ZH8UrsidsTG-4V2bFk",
   authDomain: "test-database-8a767.firebaseapp.com",
@@ -13,7 +11,7 @@ firebase.initializeApp(config);
 
 var database = firebase.database();
 
-// 2. Button for adding Train
+// Button to add a train
 $("#add-train-btn").on("click", function(event) {
   event.preventDefault();
 
