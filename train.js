@@ -25,7 +25,7 @@ $("#add-train-btn").on("click", function(event) {
     trainName: trainName,
     destination: destination,
     trainTime: trainTime,
-    frequency: frequency,
+    frequency: frequency
   };
 
   // Uploads train data to the database
